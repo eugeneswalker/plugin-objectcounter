@@ -2,7 +2,7 @@
 
 export PROFILE_DIR=$(pwd)/profiles
 
-tau_python /app/app.py
+tau_python /app/app.py $@
 
 mkdir -p $PROFILE_DIR
 mv profile.* $PROFILE_DIR/
