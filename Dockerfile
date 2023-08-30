@@ -11,4 +11,4 @@ COPY utils/ /app/utils
 ADD https://web.lcrc.anl.gov/public/waggle/models/vehicletracking/yolov7.pt /app/yolov7.pt
 
 WORKDIR /app
-ENTRYPOINT ["python3", "/app/app.py"]
+ENTRYPOINT ["wrapper.sh"]
