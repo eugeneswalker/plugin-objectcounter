@@ -7,6 +7,7 @@ COPY app.py /app/
 COPY coco.names /app/
 COPY models/ /app/models
 COPY utils/ /app/utils
+COPY test-img.jpg /app/
 
 ADD https://web.lcrc.anl.gov/public/waggle/models/vehicletracking/yolov7.pt /app/yolov7.pt
 
