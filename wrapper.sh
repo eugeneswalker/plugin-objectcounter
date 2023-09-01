@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export PATH=$PATH:/usr/local/tau2/arm64_linux/bin
 export PROFILE_DIR=$(pwd)/profiles
 
 echo Launching tau_python
