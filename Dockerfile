@@ -14,4 +14,4 @@ COPY wrapper.sh /app/
 ADD https://web.lcrc.anl.gov/public/waggle/models/vehicletracking/yolov7.pt /app/yolov7.pt
 
 WORKDIR /app
-ENTRYPOINT ["wrapper.sh"]
+ENTRYPOINT ["./wrapper.sh"]
